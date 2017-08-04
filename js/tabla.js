@@ -1,5 +1,6 @@
 var generar = document.getElementById('ejecutar');
 var tablero = document.getElementById('tablero');
+var tablero2= document.getElementById("tablero2");
 
 function printMatrix (M){
     console.log ("___________________");
@@ -173,5 +174,5 @@ function otraSolucion(){
       }
       tabla.appendChild(fila);
   }
-  nuevoTablero.appendChild(tabla);
+  tablero2.appendChild(tabla);
 }

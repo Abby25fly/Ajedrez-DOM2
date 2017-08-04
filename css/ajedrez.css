@@ -16,6 +16,14 @@ body {
     font: 14px;
 }
 
+p {
+  font-family: verdana;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .input {
     background: #770414;
     padding: 10px;
@@ -26,20 +34,24 @@ body {
     font-size: 18px;
 }
 
-.tabla {
-  margin: 5%
-  background-color: white;
+table {
+  margin: 3%;
 }
 
-.tabla2{
-  padding-top: 20px;
-  padding-bottom: 20px;
+.tabla2 {
+  
 }
 
-p {
-  font-family: verdana;
-  font-size: 18px;
-  text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
+.button {
+    background-color: #30302e;
+    border: none;
+    color: white;
+    padding: 12px 29px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
